@@ -1,0 +1,78 @@
+@font-face {
+  font-family: one-piece;
+  src: url(./one\ piece\ font.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url(https://preview.redd.it/one-piece-manga-wallpaper-v0-z6btu437zgi91.jpg?width=1080&crop=smart&auto=webp&s=69b1a769cb0070eecdf4537a881a6d5505362ae4);
+  object-fit: cover;
+  z-index: -1;
+}
+#container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(249, 249, 249, 0.558);
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: one-piece;
+  font-size: 30vh;
+  margin-bottom: 50px;
+}
+input {
+  font-size: 20px;
+  padding: 10px 50px 10px 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: black;
+}
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+#sign-in {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  background: transparent;
+  padding: 0 30px;
+  transition: all 0.3s ease;
+  border: 2px solid black;
+  font-weight: 700;
+}
+#sign-in:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+input::placeholder {
+  color: black;
+  transition: color 0.3s ease;
+}
+input:hover {
+  background-color: black;
+}
+input:hover::placeholder {
+  color: white;
+}

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: one-piece;
+  src: url(./one\ piece\ font.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url(https://preview.redd.it/one-piece-manga-wallpaper-v0-z6btu437zgi91.jpg?width=1080&crop=smart&auto=webp&s=69b1a769cb0070eecdf4537a881a6d5505362ae4);
+  object-fit: cover;
+  z-index: -1;
+}
+#blur {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(249, 249, 249, 0.558);
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#heading {
+  position: relative;
+  z-index: 99 !important;
+  text-align: center;
+}
+h1 {
+  font-family: one-piece;
+  font-size: 30vh;
+}
+#explore {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  background: transparent;
+  padding: 0 30px;
+  transition: all 0.3s ease;
+}
+#explore:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
